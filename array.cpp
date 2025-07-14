@@ -82,6 +82,10 @@ int main()
         {
             std::cout << "Change detected in slot status!" << std::endl;
         }
+      else
+        {
+          std::cout <<"No Changes Detected!!";
+        }
         
         // Simulate conveyor movement delay
         std::this_thread::sleep_for(std::chrono::seconds(1));
